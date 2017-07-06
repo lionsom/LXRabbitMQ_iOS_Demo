@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340962FA1F02838D008802D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340962F91F02838D008802D7 /* AppDelegate.m */; };
+		340962FD1F02838D008802D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340962FC1F02838D008802D7 /* ViewController.m */; };
+		340963001F02838D008802D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340962FE1F02838D008802D7 /* Main.storyboard */; };
+		340963021F02838D008802D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340963011F02838D008802D7 /* Assets.xcassets */; };
+		340963051F02838D008802D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340963031F02838D008802D7 /* LaunchScreen.storyboard */; };
+		340963081F02838D008802D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340963071F02838D008802D7 /* main.m */; };
+		340963121F02838D008802D7 /* RabbitMQDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 340963111F02838D008802D7 /* RabbitMQDemoTests.m */; };
+		3409631D1F02838D008802D7 /* RabbitMQDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3409631C1F02838D008802D7 /* RabbitMQDemoUITests.m */; };
+		467D5A711F0B2E6A00E6C740 /* LXRabbitMQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D5A701F0B2E6A00E6C740 /* LXRabbitMQManager.m */; };
+		467D5A741F0B359A00E6C740 /* LXRabbitMQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D5A731F0B359A00E6C740 /* LXRabbitMQViewController.m */; };
+		E878E87DE38EE6B5C7F03872 /* Pods_RabbitMQDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70E9375DFA56E8B748233F8 /* Pods_RabbitMQDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3409630E1F02838D008802D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 340962ED1F02838D008802D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 340962F41F02838D008802D7;
+			remoteInfo = RabbitMQDemo;
+		};
+		340963191F02838D008802D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 340962ED1F02838D008802D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 340962F41F02838D008802D7;
+			remoteInfo = RabbitMQDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		340962F51F02838D008802D7 /* RabbitMQDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbitMQDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		340962F81F02838D008802D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		340962F91F02838D008802D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		340962FB1F02838D008802D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		340962FC1F02838D008802D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		340962FF1F02838D008802D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		340963011F02838D008802D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		340963041F02838D008802D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		340963061F02838D008802D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340963071F02838D008802D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3409630D1F02838D008802D7 /* RabbitMQDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabbitMQDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		340963111F02838D008802D7 /* RabbitMQDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RabbitMQDemoTests.m; sourceTree = "<group>"; };
+		340963131F02838D008802D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340963181F02838D008802D7 /* RabbitMQDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabbitMQDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3409631C1F02838D008802D7 /* RabbitMQDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RabbitMQDemoUITests.m; sourceTree = "<group>"; };
+		3409631E1F02838D008802D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467D5A6F1F0B2E6A00E6C740 /* LXRabbitMQManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXRabbitMQManager.h; path = LXRabbitMQManager/LXRabbitMQManager.h; sourceTree = "<group>"; };
+		467D5A701F0B2E6A00E6C740 /* LXRabbitMQManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXRabbitMQManager.m; path = LXRabbitMQManager/LXRabbitMQManager.m; sourceTree = "<group>"; };
+		467D5A721F0B359A00E6C740 /* LXRabbitMQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRabbitMQViewController.h; sourceTree = "<group>"; };
+		467D5A731F0B359A00E6C740 /* LXRabbitMQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRabbitMQViewController.m; sourceTree = "<group>"; };
+		7C7C99FC24139374DC2D6F3A /* Pods-RabbitMQDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabbitMQDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RabbitMQDemo/Pods-RabbitMQDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8D2EAD99EFA731CABA61D147 /* Pods-RabbitMQDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabbitMQDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RabbitMQDemo/Pods-RabbitMQDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E70E9375DFA56E8B748233F8 /* Pods_RabbitMQDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RabbitMQDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		340962F21F02838D008802D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E878E87DE38EE6B5C7F03872 /* Pods_RabbitMQDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3409630A1F02838D008802D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340963151F02838D008802D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340962EC1F02838D008802D7 = {
+			isa = PBXGroup;
+			children = (
+				340962F71F02838D008802D7 /* RabbitMQDemo */,
+				340963101F02838D008802D7 /* RabbitMQDemoTests */,
+				3409631B1F02838D008802D7 /* RabbitMQDemoUITests */,
+				340962F61F02838D008802D7 /* Products */,
+				69BA6B89DBCB4BD729243EF9 /* Pods */,
+				D9729328C02F50EA45845DB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		340962F61F02838D008802D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				340962F51F02838D008802D7 /* RabbitMQDemo.app */,
+				3409630D1F02838D008802D7 /* RabbitMQDemoTests.xctest */,
+				340963181F02838D008802D7 /* RabbitMQDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		340962F71F02838D008802D7 /* RabbitMQDemo */ = {
+			isa = PBXGroup;
+			children = (
+				467D5A6E1F0B2E2800E6C740 /* LXRabbitMQManager */,
+				340962F81F02838D008802D7 /* AppDelegate.h */,
+				340962F91F02838D008802D7 /* AppDelegate.m */,
+				340962FB1F02838D008802D7 /* ViewController.h */,
+				340962FC1F02838D008802D7 /* ViewController.m */,
+				467D5A721F0B359A00E6C740 /* LXRabbitMQViewController.h */,
+				467D5A731F0B359A00E6C740 /* LXRabbitMQViewController.m */,
+				340962FE1F02838D008802D7 /* Main.storyboard */,
+				340963011F02838D008802D7 /* Assets.xcassets */,
+				340963031F02838D008802D7 /* LaunchScreen.storyboard */,
+				340963061F02838D008802D7 /* Info.plist */,
+				340963071F02838D008802D7 /* main.m */,
+			);
+			path = RabbitMQDemo;
+			sourceTree = "<group>";
+		};
+		340963101F02838D008802D7 /* RabbitMQDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				340963111F02838D008802D7 /* RabbitMQDemoTests.m */,
+				340963131F02838D008802D7 /* Info.plist */,
+			);
+			path = RabbitMQDemoTests;
+			sourceTree = "<group>";
+		};
+		3409631B1F02838D008802D7 /* RabbitMQDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3409631C1F02838D008802D7 /* RabbitMQDemoUITests.m */,
+				3409631E1F02838D008802D7 /* Info.plist */,
+			);
+			path = RabbitMQDemoUITests;
+			sourceTree = "<group>";
+		};
+		467D5A6E1F0B2E2800E6C740 /* LXRabbitMQManager */ = {
+			isa = PBXGroup;
+			children = (
+				467D5A6F1F0B2E6A00E6C740 /* LXRabbitMQManager.h */,
+				467D5A701F0B2E6A00E6C740 /* LXRabbitMQManager.m */,
+			);
+			name = LXRabbitMQManager;
+			sourceTree = "<group>";
+		};
+		69BA6B89DBCB4BD729243EF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D2EAD99EFA731CABA61D147 /* Pods-RabbitMQDemo.debug.xcconfig */,
+				7C7C99FC24139374DC2D6F3A /* Pods-RabbitMQDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9729328C02F50EA45845DB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E70E9375DFA56E8B748233F8 /* Pods_RabbitMQDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		340962F41F02838D008802D7 /* RabbitMQDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340963211F02838D008802D7 /* Build configuration list for PBXNativeTarget "RabbitMQDemo" */;
+			buildPhases = (
+				C3B0FDAAE69B4BC6BB7DBA42 /* [CP] Check Pods Manifest.lock */,
+				340962F11F02838D008802D7 /* Sources */,
+				340962F21F02838D008802D7 /* Frameworks */,
+				340962F31F02838D008802D7 /* Resources */,
+				1BF2E4BC719AA873B3EF95FE /* [CP] Embed Pods Frameworks */,
+				6F33AB11CE88F469E649C053 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RabbitMQDemo;
+			productName = RabbitMQDemo;
+			productReference = 340962F51F02838D008802D7 /* RabbitMQDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3409630C1F02838D008802D7 /* RabbitMQDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340963241F02838D008802D7 /* Build configuration list for PBXNativeTarget "RabbitMQDemoTests" */;
+			buildPhases = (
+				340963091F02838D008802D7 /* Sources */,
+				3409630A1F02838D008802D7 /* Frameworks */,
+				3409630B1F02838D008802D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3409630F1F02838D008802D7 /* PBXTargetDependency */,
+			);
+			name = RabbitMQDemoTests;
+			productName = RabbitMQDemoTests;
+			productReference = 3409630D1F02838D008802D7 /* RabbitMQDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		340963171F02838D008802D7 /* RabbitMQDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340963271F02838D008802D7 /* Build configuration list for PBXNativeTarget "RabbitMQDemoUITests" */;
+			buildPhases = (
+				340963141F02838D008802D7 /* Sources */,
+				340963151F02838D008802D7 /* Frameworks */,
+				340963161F02838D008802D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3409631A1F02838D008802D7 /* PBXTargetDependency */,
+			);
+			name = RabbitMQDemoUITests;
+			productName = RabbitMQDemoUITests;
+			productReference = 340963181F02838D008802D7 /* RabbitMQDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		340962ED1F02838D008802D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = misrobot;
+				TargetAttributes = {
+					340962F41F02838D008802D7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3409630C1F02838D008802D7 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 340962F41F02838D008802D7;
+					};
+					340963171F02838D008802D7 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 340962F41F02838D008802D7;
+					};
+				};
+			};
+			buildConfigurationList = 340962F01F02838D008802D7 /* Build configuration list for PBXProject "RabbitMQDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 340962EC1F02838D008802D7;
+			productRefGroup = 340962F61F02838D008802D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				340962F41F02838D008802D7 /* RabbitMQDemo */,
+				3409630C1F02838D008802D7 /* RabbitMQDemoTests */,
+				340963171F02838D008802D7 /* RabbitMQDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		340962F31F02838D008802D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340963051F02838D008802D7 /* LaunchScreen.storyboard in Resources */,
+				340963021F02838D008802D7 /* Assets.xcassets in Resources */,
+				340963001F02838D008802D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3409630B1F02838D008802D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340963161F02838D008802D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BF2E4BC719AA873B3EF95FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RabbitMQDemo/Pods-RabbitMQDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
+				"${BUILT_PRODUCTS_DIR}/JKVValue/JKVValue.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/RMQClient/RMQClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKVValue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMQClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RabbitMQDemo/Pods-RabbitMQDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F33AB11CE88F469E649C053 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RabbitMQDemo/Pods-RabbitMQDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B0FDAAE69B4BC6BB7DBA42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RabbitMQDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		340962F11F02838D008802D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340962FD1F02838D008802D7 /* ViewController.m in Sources */,
+				340963081F02838D008802D7 /* main.m in Sources */,
+				340962FA1F02838D008802D7 /* AppDelegate.m in Sources */,
+				467D5A741F0B359A00E6C740 /* LXRabbitMQViewController.m in Sources */,
+				467D5A711F0B2E6A00E6C740 /* LXRabbitMQManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340963091F02838D008802D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340963121F02838D008802D7 /* RabbitMQDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340963141F02838D008802D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3409631D1F02838D008802D7 /* RabbitMQDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3409630F1F02838D008802D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 340962F41F02838D008802D7 /* RabbitMQDemo */;
+			targetProxy = 3409630E1F02838D008802D7 /* PBXContainerItemProxy */;
+		};
+		3409631A1F02838D008802D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 340962F41F02838D008802D7 /* RabbitMQDemo */;
+			targetProxy = 340963191F02838D008802D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		340962FE1F02838D008802D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				340962FF1F02838D008802D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		340963031F02838D008802D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				340963041F02838D008802D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3409631F1F02838D008802D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		340963201F02838D008802D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		340963221F02838D008802D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2EAD99EFA731CABA61D147 /* Pods-RabbitMQDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2STZ5AM32F;
+				INFOPLIST_FILE = RabbitMQDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misrobot.RabbitMQDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		340963231F02838D008802D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7C99FC24139374DC2D6F3A /* Pods-RabbitMQDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2STZ5AM32F;
+				INFOPLIST_FILE = RabbitMQDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misrobot.RabbitMQDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		340963251F02838D008802D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CB72W7B5CA;
+				INFOPLIST_FILE = RabbitMQDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misrobot.RabbitMQDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RabbitMQDemo.app/RabbitMQDemo";
+			};
+			name = Debug;
+		};
+		340963261F02838D008802D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CB72W7B5CA;
+				INFOPLIST_FILE = RabbitMQDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misrobot.RabbitMQDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RabbitMQDemo.app/RabbitMQDemo";
+			};
+			name = Release;
+		};
+		340963281F02838D008802D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CB72W7B5CA;
+				INFOPLIST_FILE = RabbitMQDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misrobot.RabbitMQDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RabbitMQDemo;
+			};
+			name = Debug;
+		};
+		340963291F02838D008802D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CB72W7B5CA;
+				INFOPLIST_FILE = RabbitMQDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misrobot.RabbitMQDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RabbitMQDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		340962F01F02838D008802D7 /* Build configuration list for PBXProject "RabbitMQDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3409631F1F02838D008802D7 /* Debug */,
+				340963201F02838D008802D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340963211F02838D008802D7 /* Build configuration list for PBXNativeTarget "RabbitMQDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340963221F02838D008802D7 /* Debug */,
+				340963231F02838D008802D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340963241F02838D008802D7 /* Build configuration list for PBXNativeTarget "RabbitMQDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340963251F02838D008802D7 /* Debug */,
+				340963261F02838D008802D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340963271F02838D008802D7 /* Build configuration list for PBXNativeTarget "RabbitMQDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340963281F02838D008802D7 /* Debug */,
+				340963291F02838D008802D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 340962ED1F02838D008802D7 /* Project object */;
+}
